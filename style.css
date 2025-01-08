@@ -1,13 +1,58 @@
-*{
-    background-image: url(pictures/background2.jpg.jpg);
-}
-h1{
+.stitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:white;
-    background-color: blueviolet;
+    opacity: 0.6;
 }
-#NAME{
-    color: black; 
+
+.ztitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
     text-align: center;
+}
+
+.menu {
+    /* Rectangle 1 */
+    position: static;
+    width: 424px;
+    height: 283px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 32px 0px;
+    border-radius: 16px;
+    text-align: center;
+}
+.shop .name{
+    text-align: center;
+    position: static;
+    width: 123px;
+    height: 28px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 14px 32px 14px 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    gap: 20px;
 }
